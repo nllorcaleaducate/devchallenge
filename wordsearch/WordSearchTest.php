@@ -1,8 +1,5 @@
 <?php
-//require('index.php');
-function searchWord($sboard,$str) {
-    return '';
-}
+require('WordSearch.php');
 
 class WordSearchTest extends \PHPUnit_Framework_TestCase
 {
