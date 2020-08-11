@@ -3,7 +3,6 @@ Bienvenido al Challenge de Leaducate para Developers! Te pedimos por favor que s
 
 - flatten
 - wordsearch
-- isograms
 
 En cada carpeta del repositoria podrás ver el README.me de cada ejercicio en donde se encuentra su enunciado.
 
@@ -17,7 +16,7 @@ git clone https://{tuusuario}@github.com/nllorcaleaducate/devchallenge.git .
 ```
 git checkout -b {tunombre} master
 ```
-3. En cada carpeta (flatten,wordsearch o isograms), tendrás un archivo para implementar la funcion solicitada y otro archivo con los tests que debe pasar tu función.
+3. En cada carpeta (flatten o wordsearch), tendrás un archivo para implementar la funcion solicitada y otro archivo con los tests que debe pasar tu función.
 4. Para ejecutar los test, podes usar los phpunit que ya estan en el repositorio (phpunit-5.7.phar para php5.6/php5.7 y phpunit.phar php7 en adelante) dependiendo la versión de php que tengas instalada. Por ejemplo:
 ```
 ./phpunit-5.7.phar wordsearch/WordSearchTest.php
@@ -30,7 +29,6 @@ o
 ```
 git add flatten/Flatten.php
 git add wordsearch/WordSearch.php
-git add isograms/Isograms.php
 git commit -m "Entrega de challenge {tunombre}"
 git push origin {tunombre}
 ```

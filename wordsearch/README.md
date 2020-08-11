@@ -1,23 +1,24 @@
 # WordSearch
-Here's some basic usage of the file you'll need to create:
+Ejempo del funcionamiento de la función que se debe implementar:
 
 ```php
-require('index.php'); // <-- create the function in the index.php file
+require('WordSearch.php'); // <-- Implementa la función en WordSearch.php
 
 $board = [
     ['a', 'b', 'c', 'd'],
-    ['d', 'k', 'l', 'm'],
-    ['m', 'f', 'b', 's']
+    ['n', 'k', 'l', 'm'],
+    ['o', 'f', 'z', 's']
 ];
 
-// Word can be constructed form letters of sequentially adjacent cell,
-// where 'adjacent' cells are those horizontally or vertically neighboring.
+// Una palabra se puede construir con letras de una celda secuencialmente adyacente,
+// donde las celdas 'adyacentes' son las vecinas horizontal o verticalmente.
+// Algunos tips para simplificar la solución:
+// - Cuando una letra esta en un limite disminuye su número de vecinos, por ejemplo "d" tiene solo a "c" y "m" de vecinos.
+// - Las letras del board no se pueden repetir, por ejemplo no puede haber una "a" en dos lugares del tablero.  
 searchWord($board, 'abcd'); // true
 searchWord($board, 'abcl'); // true
-searchWord($board, 'admfbl'); // true
+searchWord($board, 'szfkb'); // true
 
-// It's not allowed to use the same letter twice
-searchWord($board, 'abcc'); // false
-searchWord($board, 'abcdc'); // false
-searchWord($board, 'dklml'); // false
+searchWord($board, 'abcz'); // false
+searchWord($board, 'dmso'); // false
 ```

@@ -1,32 +1,42 @@
 <?php
 require('WordSearch.php');
 
-class WordSearchTest extends \PHPUnit_Framework_TestCase
+class WordSearchTest extends PHPUnit\Framework\TestCase
 {
-    public function testWordSearch()
+    public function testCeldasAdyacentes()
     {
         $board = [
             ['a', 'b', 'c', 'd'],
-            ['d', 'k', 'l', 'm'],
-            ['m', 'f', 'b', 's']
+            ['n', 'k', 'l', 'm'],
+            ['o', 'f', 'z', 's']
         ];
 
-        // Word can be constructed form letters of sequentially adjacent cell,
-        // where 'adjacent' cells are those horizontally or vertically neighboring.
         $this->assertTrue(searchWord($board, 'abcl'));
-        $this->assertTrue(searchWord($board, 'admfbl'));
-        $this->assertTrue(searchWord($board, 'smdc'));
-        $this->assertTrue(searchWord($board, 'dklm'));
+        $this->assertTrue(searchWord($board, 'abklm'));
+        $this->assertTrue(searchWord($board, 'szfkb'));
+        $this->assertTrue(searchWord($board, 'dmszl'));
+    }
 
-        // words that doesn't exists
-        $this->assertFalse(searchWord($board, 'dlm'));
-        $this->assertFalse(searchWord($board, 'smdb'));
+    public function testCeldasNoAdyacentes()
+    {
+        $board = [
+            ['a', 'b', 'c', 'd'],
+            ['n', 'k', 'l', 'm'],
+            ['o', 'f', 'z', 's']
+        ];
 
-        // It's not allowed to use the same letter twice
-        $this->assertFalse(searchWord($board, 'abcc'));
-        $this->assertFalse(searchWord($board, 'dklml'));
+        $this->assertFalse(searchWord($board, 'abcz'));
+        $this->assertFalse(searchWord($board, 'dmso'));
+    }
 
-        // Full board
-        $this->assertTrue(searchWord($board, 'abcdmlkdmfbs'));
+    public function testTableroCompleto()
+    {
+        $board = [
+            ['a', 'b', 'c', 'd'],
+            ['n', 'k', 'l', 'm'],
+            ['o', 'f', 'z', 's']
+        ];
+
+        $this->assertTrue(searchWord($board, 'abcdmlknofzs'));
     }
 }
