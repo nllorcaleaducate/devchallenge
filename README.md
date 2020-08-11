@@ -33,7 +33,6 @@ git add wordsearch/WordSearch.php
 git add isograms/Isograms.php
 git commit -m "Entrega de challenge {tunombre}"
 git push origin {tunombre}
-
 ```
 6. Muchas gracias!
 
