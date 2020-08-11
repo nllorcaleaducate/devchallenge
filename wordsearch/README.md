@@ -1,4 +1,4 @@
-#WordSearch
+# WordSearch
 Here's some basic usage of the file you'll need to create:
 
 ```php
