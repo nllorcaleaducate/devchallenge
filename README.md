@@ -1,2 +1,2 @@
-# devchallenge
+# DevChallenge
 Leaducate Developer Challange
