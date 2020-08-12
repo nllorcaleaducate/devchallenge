@@ -1,8 +1,8 @@
 # Leaducate Developer Challenge
 Bienvenido al Challenge de Leaducate para Developers! Te pedimos por favor que sigas las instrucciones para completar todos los challenges. Los ejercicios requeridos son:
 
-- account
-- wordsearch
+- account [Ver enunciado](account/)
+- wordsearch [Ver enunciado](wordsearch/)
 
 En cada carpeta del repositoria podrás ver el README.me de cada ejercicio en donde se encuentra su enunciado.
 
