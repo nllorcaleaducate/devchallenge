@@ -8,13 +8,13 @@ En el archivo Account.php se encuentran tres clases que hay que completar:
 	- Cada cuenta tiene movimientos, dichos movimeinto pueden ser en USD o ARS
 - Movement: representa un movimiento de cuenta, tiene una moneda: USD o ARS y una cantidad que puede ser un número positivo o negativo.
 
-##Objetivo
+## Objetivo
 Finalmente se solicita implementar los métodos vacios en las clases Client y Account para completar los tests.
 
 Ejempo del funcionamiento de las clases a implementar:
 
 ```php
-require('Account.php'); // <-- Implementa la función en Account.php
+require('Account.php'); // <-- Implementa los métodos faltantes en Account.php
 
 $account = new Account();
 
