@@ -12,7 +12,7 @@ Se debe implementar una función searchWord que recibe una matriz de NxM y una p
 La función deberá retornar TRUE o FALSE, de acuerdo a las siguiente reglas:
 - Una palabra se puede construir de acuerdo a la matriz con letras de una celda secuencialmente adyacente, donde las celdas 'adyacentes' son las vecinas horizontal o verticalmente. Ej. las celdas adyacentes de 'k' son 'b','f','n','l'
 - Algunos tips para simplificar la solución:
-    - Cuando una letra esta en un limite disminuye su número de vecinos, por ejemplo 'd' tiene solo a 'c' y 'm' de vecinos.
+    - Cuando una letra esta en un borde disminuye la cantidad de celdas adyacentes, por ejemplo 'd' tiene solo a 'c' y 'm' de vecinos.
     - Las letras del board no se pueden repetir, por ejemplo no puede haber una 'a' en dos lugares del tablero.
     
 Ejempo del funcionamiento de la función que se debe implementar:
