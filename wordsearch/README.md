@@ -3,11 +3,11 @@ Se debe implementar una función searchWord que recibe una matriz de NxM y una p
 
 ### Ejemplo de matriz
 
-| | | |
-|-|-|-|
-|a|b|c|d
-|n|k|l|m
-|o|f|z|s
+| | | ||
+|-|-|-|-|
+|a|b|c|d|
+|n|k|l|m|
+|o|f|z|s|
 
 La función deberá retornar TRUE o FALSE, de acuerdo a las siguiente reglas:
 - Una palabra se puede construir de acuerdo a la matriz con letras de una celda secuencialmente adyacente, donde las celdas 'adyacentes' son las vecinas horizontal o verticalmente. Ej. las celdas adyacentes de 'k' son 'b','f','n','l'
