@@ -14,7 +14,7 @@ Finalmente se solicita implementar los métodos vacios en las clases Client y Ac
 Ejempo del funcionamiento de las clases a implementar:
 
 ```php
-require('Account.php'); // <-- Implementa la función en Account.php
+require('Account.php'); // <-- Implementa los métodos faltantes en Account.php
 
 $account = new Account();
 
