@@ -13,7 +13,7 @@ La función deberá retornar TRUE o FALSE, de acuerdo a las siguiente reglas:
 - Una palabra se puede construir de acuerdo a la matriz con letras de una celda secuencialmente adyacente, donde las celdas 'adyacentes' son las vecinas horizontal o verticalmente. Ej. las celdas adyacentes de 'k' son 'b','f','n','l'
 - Algunos tips para simplificar la solución:
     - Cuando una letra esta en un borde disminuye la cantidad de celdas adyacentes, por ejemplo 'd' tiene solo a 'c' y 'm' de vecinos, o bien 'b' tiene a 'a','c' y 'k'
-    - Las letras de la matriz no se pueden repetir, por ejemplo no puede haber una 'a' en dos lugares del tablero.
+    - Las letras de la matriz no se pueden repetir, por ejemplo no puede haber una 'a' en dos posiciones de la matriz.
     
 Ejempo del funcionamiento de la función que se debe implementar:
 
