@@ -10,6 +10,8 @@ En cada carpeta del repositorio podrás ver el README.me de cada ejercicio en do
 
 1. Clonar repositorio
 ```
+mkdir challenge
+cd challenge
 git clone https://{tuusuario}@github.com/nllorcaleaducate/devchallenge.git .
 ```
 2. Crear un branch para realizar tu challenge, al nombre del branch ponele tu nombre.
