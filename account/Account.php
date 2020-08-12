@@ -36,22 +36,22 @@ class Account {
 	private $cvu;
 	private $movements;
 
-	//TODO: implementar getCvu
+	//TODO: implementar getCvu > obtiene el CVU de la cuenta
 	public function getCvu() {
 
 	}
 
-	//TODO: implementar setClient
+	//TODO: implementar setClient > Asigna el cliente de la cuenta
 	public function setClient($client) {
 
 	}
 
-	//TODO: implementar addMovement
+	//TODO: implementar addMovement > permite agregar un movimiento a la cuenta
 	public function addMovement($movement) {
 
 	}
 
-	//TODO: implementar getBalance
+	//TODO: implementar getBalance > permite obtener el saldo de la cuenta en ARS o USD
 	public function getBalance($currency) {
 
 	}
