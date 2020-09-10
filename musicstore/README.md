@@ -1,5 +1,6 @@
 # MusicStore
 Para ejecutar este ejercicio será necesario que tengas instalada en tu entorno de desarrollo la libreria php-sqlite o php5.6-sqlite de acuerdo a la versión de PHP.
+
 En el archivo MusicStore.php se encuentran cuatro métodos que hay que completar:
 - getPlaylistsByName: Obtener todas las playlists cuyo nombre contengan $name
 	- Campos por registro: PlaylistId, Name 
@@ -16,4 +17,7 @@ En el archivo MusicStore.php se encuentran cuatro métodos que hay que completar
 	- Campos por registro: Artist, Sales (cantidad de tracks vendidos)
 
 ## Objetivo
-Completar la varible $sql en cada método para lograr el output solicitado para completar los tests.
+Completar la varible $sql en cada método para lograr el output solicitado para completar los tests. 
+- La base de datos se encuentra en la carpeta db
+- A continuación un DER de la base de datos:
+![DER](https://github.com/nllorcaleaducate/devchallenge/raw/master/musicstore/musicstore-der.png)
