@@ -11,7 +11,7 @@ En el archivo MusicStore.php se encuentran cuatro métodos que hay que completar
 		- TracksNumber: Cantidad de tracks del album
 		- Price: Precio del album (suma de los precios de sus tracks)
 		- Duration: Duración del album en minutos
-- getGenresBilling: Retornar el total facturado (2 decimales) por genero entre $fromDate y $toDate ordenado de mayor a menor facturación (no incluir generos sin facturación)
+- getGenresBilling: Retornar el total facturado (número con 2 decimales) por genero entre $fromDate y $toDate ordenado de mayor a menor facturación (no incluir generos sin facturación)
 	- Campos por registro: Genre, Billing
 - getBestSellingArtist:Retonar el artista que más tracks vendió en toda la historia de facturación existente
 	- Campos por registro: Artist, Sales (cantidad de tracks vendidos)
