@@ -1,5 +1,6 @@
 # MusicStore
 Para ejecutar este ejercicio será necesario que tengas instalada en tu entorno de desarrollo la libreria php-sqlite o php5.6-sqlite de acuerdo a la versión de PHP.
+
 En el archivo MusicStore.php se encuentran cuatro métodos que hay que completar:
 - getPlaylistsByName: Obtener todas las playlists cuyo nombre contengan $name
 	- Campos por registro: PlaylistId, Name 
