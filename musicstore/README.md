@@ -20,5 +20,4 @@ En el archivo MusicStore.php se encuentran cuatro métodos que hay que completar
 Completar la varible $sql en cada método para lograr el output solicitado para completar los tests. 
 - La base de datos se encuentra en la carpeta db
 - A continuación un DER de la base de datos:
-![DER]
-(https://github.com/nllorcaleaducate/devchallenge/raw/master/musicstore/musicstore-der.png)
+![DER](https://github.com/nllorcaleaducate/devchallenge/raw/master/musicstore/musicstore-der.png)
