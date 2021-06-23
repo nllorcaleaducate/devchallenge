@@ -1,11 +1,12 @@
 <?php
-require('Account.php');
+require('Accounts.php');
+require('Client.php');
 
 class AccountTestAlt
 {
     public function testCvu()
     {
-        $account = new Account();
+        $account = new Accounts();
 
         $client = new Client();
         $client->setId('28902345');
