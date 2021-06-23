@@ -1,5 +1,5 @@
 <?php
-class Client {
+class Clients {
 	private $id;
 	private $name;
 
@@ -21,7 +21,7 @@ class Client {
 	}
 }
 
-class Movement {
+class Movements {
 	public $currency; // Puede ser 'USD' o 'ARS'
 	public $amount; // Puede ser un número positivo o negativo
 
